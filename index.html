@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mooving</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main-movie-poster-background"></div>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Mooving</h1>
+            </div>
+            <ul class="header-list">
+                <li class="header-list-item header-list-item__selected">
+                    <a href="#">HOME</a>
+                </li>
+                <li class="header-list-item">
+                    <a href="#">MOVIES</a>
+                </li>
+                <li class="header-list-item">
+                    <a href="#">SERIES</a>
+                </li>
+                <li class="header-list-item">
+                    <a href="#">ABOUT</a>
+                </li>
+                <li class="header-list-item">
+                    <a href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="main-movie-data">
+                <h2 class="main-movie-name">Whiplash</h2>
+                <ul class="main-movie-genres">
+                    <li>Drama</li>
+                    <div class="vertical-bar"></div>
+                    <li>Music</li>
+                </ul>
+                <button class="btn-watch-me">
+                    <p>Watch Me</p>
+                    <div class="btn-watch-me-image">
+                        <img src="images/play-button.png" alt="button watch image">
+                    </div>
+                </button>
+            </div>
+            <div class="recommended-movies">
+                <ul class="recommended-movies-list">
+                    <li>
+                        <img src="images/la-la-land-scene.jpg" alt="image" class="recommended-movies-image">
+                        <button class="btn-play-recommended-movies">
+                            <img src="images/play-button.png" alt="play icon">
+                        </button>
+                        <h3 class="recommended-movies-name">La La Land</h3>
+                    </li>
+                    <li>
+                        <img src="images/dark-knight-scene.jpg" alt="image" class="recommended-movies-image">
+                        <button class="btn-play-recommended-movies">
+                            <img src="images/play-button.png" alt="play icon">
+                        </button>
+                        <h3 class="recommended-movies-name">The Dark Knight</h3>
+                    </li>
+                    <li>
+                        <img src="images/cars-scene.jpg" alt="image" class="recommended-movies-image">
+                        <button class="btn-play-recommended-movies">
+                            <img src="images/play-button.png" alt="play icon">
+                        </button>
+                        <h3 class="recommended-movies-name">Cars</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="all-movies-filter">
+                <ul class="filter-list">
+                    <li class="filter-list-item filter-list-item__selected">
+                        <a href="#">All</a>
+                    </li>
+                    <li class="filter-list-item">
+                        <a href="#">Movies</a>
+                    </li>
+                    <li class="filter-list-item">
+                        <a href="#">Series</a>
+                    </li>
+                    <li class="filter-list-item">
+                        <a href="#">Top Rated</a>
+                    </li>
+                </ul>
+                <div class="search-bar">
+                    <input type="text" name="" id="" placeholder="Search...">
+                    <img src="images/search.png" alt="Search icon">
+                </div>
+                <ul class="all-movies-list">
+                    <li>
+                        <div class="movie-poster">
+                            <img src="images/the-man-from-uncle-cover.jpg" alt="poster" class="movie-poster-image">
+                            <button class="btn-play-movie-list">
+                                <img src="images/play-button.png" alt="button play image">
+                            </button>
+                            <div class="movie-list-rating">6.8</div>
+                        </div>
+                        <div class="movie-list-name">The Man From U.N.C.L.E</div>
+                        <ul class="movie-list-genres">
+                            <li>Adventure,</li>
+                            <li>Spy,</li>
+                            <li>Comedy</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="movie-poster">
+                            <img src="images/john-wick-cover.jpg" alt="poster" class="movie-poster-image">
+                            <button class="btn-play-movie-list">
+                                <img src="images/play-button.png" alt="button play image">
+                            </button>
+                            <div class="movie-list-rating">7.8</div>
+                        </div>
+                        <div class="movie-list-name">John Wick 4</div>
+                        <ul class="movie-list-genres">
+                            <li>Adventure,</li>
+                            <li>Action,</li>
+                            <li>Comedy</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="movie-poster">
+                            <img src="images/mission-impossible-cover.jpg" alt="poster" class="movie-poster-image">
+                            <button class="btn-play-movie-list">
+                                <img src="images/play-button.png" alt="button play image">
+                            </button>
+                            <div class="movie-list-rating">8.0</div>
+                        </div>
+                        <div class="movie-list-name">Mission Impossible 6</div>
+                        <ul class="movie-list-genres">
+                            <li>Adventure,</li>
+                            <li>Thriller,</li>
+                            <li>Comedy</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="movie-poster">
+                            <img src="images/parasite-cover.jpg" alt="poster" class="movie-poster-image">
+                            <button class="btn-play-movie-list">
+                                <img src="images/play-button.png" alt="button play image">
+                            </button>
+                            <div class="movie-list-rating">9.2</div>
+                        </div>
+                        <div class="movie-list-name">Parasite</div>
+                        <ul class="movie-list-genres">
+                            <li>Drama,</li>
+                            <li>Thriller,</li>
+                            <li>Comedy</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <p class="credits">Inspirado no seguinte <a target="_blank"
+            href="https://dribbble.com/shots/4689515-Movie-Review-Website/attachments/1058125?mode=media">Design</a></p>
+
+</body>
+
+</html>
